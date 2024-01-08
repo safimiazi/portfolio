@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$primary-200: #338dff;
+$primary-400: #0070ff;
+$primary-600: #0f00ff;
+
+html {
+    height: -webkit-fill-available !important;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    @apply font-body bg-gray-900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-display;
+}
+
+@import "./anim";
