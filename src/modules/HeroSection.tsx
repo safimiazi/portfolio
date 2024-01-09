@@ -33,16 +33,12 @@ const HeroSection: React.FC<{ setShowHero: (v: boolean) => void }> = ({
                     Full-Stack Developer
                 </h4>
                 <p className="text-slate-400">
-                    I am a full-stack web developer passionate about creating
-                    attractive and user-friendly websites. With a strong
-                    background in crafting responsive designs, I specialize in
-                    clean, semantic, and reusable code. My expertise includes
-                    HTML, CSS, Bootstrap, JavaScript, and React. I also have
-                    intermediate proficiency in Next.js, Node.js, Express.js,
-                    and MongoDB. If you're looking for a full-stack developer to
-                    enhance your team, I'm eager to showcase how my skills align
-                    with your needs. Feel free to contact me via email or using
-                    the provided information.
+                    I am a Passionate full-stack web developer with expertise in
+                    creating attractive, user-friendly websites. Specializing in
+                    clean, responsive designs using HTML, CSS, Bootstrap,
+                    JavaScript, and React. Proficient in Next.js, Node.js,
+                    Express.js, and MongoDB. Eager to enhance your team – let's
+                    connect! Email me or use the provided information.
                 </p>
                 <ContactButton />
             </div>
