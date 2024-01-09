@@ -25,9 +25,9 @@ export const experienceData = [
         ],
     },
     {
-        companyName: "Risosi",
+        companyName: "Introbangla",
         companyLocation: "Uttara, Dhaka",
-        companyUrl: "https://www.risosi.com/",
+        companyUrl: "https://www.introbangla.com/",
         position: "Full-Stack Developer",
         from: "August 2023",
         till: "Present",
