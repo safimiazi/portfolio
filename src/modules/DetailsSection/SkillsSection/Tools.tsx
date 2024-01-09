@@ -9,9 +9,9 @@ const tools: Tools[] = [
     { name: "Git", description: "" },
     { name: "GitHub", description: "" },
     { name: "Docker", description: "" },
-    { name: "Linux", description: "" },
-    { name: "GCP", description: "" },
     { name: "VSCode", description: "" },
+    { name: "Vercel", description: "" },
+    { name: "Netlify", description: "" },
 ];
 
 const Tools: React.FC = () => {

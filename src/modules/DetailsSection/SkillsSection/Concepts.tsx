@@ -14,6 +14,7 @@ const concepts: Concept[] = [
     { name: "Async and Concurrency", description: "" },
     { name: "Design Patterns", description: "" },
     { name: "Distributed Systems", description: "" },
+    { name: "Authentication", description: "" },
 ];
 
 const Concepts: React.FC = () => {

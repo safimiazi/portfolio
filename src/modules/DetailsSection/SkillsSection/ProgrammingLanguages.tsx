@@ -1,75 +1,16 @@
+import { Language, languages } from "../../../assets/data/languageData";
 import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
-
-type Language = {
-    name: string;
-    description: string;
-    projects: {
-        title: string;
-        summary: string;
-        githubLink: string | null;
-        liveLink: string | null;
-    }[];
-};
-
-const languages: Language[] = [
-    {
-        name: "JavaScript",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ut tempore molestias odio aspernatur fugiat, doloremque blanditiis laborum sunt totam quidem ratione, beatae et praesentium, soluta non dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ut tempore molestias odio aspernatur fugiat, doloremque blanditiis laborum sunt totam quidem ratione, beatae et praesentium, soluta non dicta.",
-        projects: [
-            {
-                title: "Social Media app",
-                summary:
-                    "MVP of a Social media application for professional doctors.",
-                githubLink: "https://github.com/sifatulrabbi/social-media-app",
-                liveLink: null,
-            },
-            {
-                title: "Meta Workplace bot",
-                summary:
-                    "A workplace bot that can detect acronyms and answer the full meanings to the users when they mention the bot.",
-                githubLink: "https://github.com/sifatulrabbi/workplace-bot",
-                liveLink: null,
-            },
-            {
-                title: "Hotel Management app",
-                summary:
-                    "MVP of a Hotel Management app that helps a boutique hotel with their day to day work.",
-                githubLink: "https://github.com/sifatulrabbi/boutique-hotel",
-                liveLink: null,
-            },
-        ],
-    },
-    {
-        name: "Python",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ut tempore molestias odio aspernatur fugiat, doloremque blanditiis laborum sunt totam quidem ratione, beatae et praesentium, soluta non dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ut tempore molestias odio aspernatur fugiat, doloremque blanditiis laborum sunt totam quidem ratione, beatae et praesentium, soluta non dicta.",
-        projects: [],
-    },
-    {
-        name: "TypeScript",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ut tempore molestias odio aspernatur fugiat, doloremque blanditiis laborum sunt totam quidem ratione, beatae et praesentium, soluta non dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ut tempore molestias odio aspernatur fugiat, doloremque blanditiis laborum sunt totam quidem ratione, beatae et praesentium, soluta non dicta.",
-        projects: [],
-    },
-    {
-        name: "Go",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ut tempore molestias odio aspernatur fugiat, doloremque blanditiis laborum sunt totam quidem ratione, beatae et praesentium, soluta non dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ut tempore molestias odio aspernatur fugiat, doloremque blanditiis laborum sunt totam quidem ratione, beatae et praesentium, soluta non dicta.",
-        projects: [],
-    },
-];
 
 const ProgrammingLanguages: React.FC = () => {
     const [selectedLang, setSelectedLang] = useState<Language | null>(null);
 
     return (
         <>
-            <div className="w-full prose max-w-full prose-h4:text-slate-300 prose-h4:font-medium prose-h4:my-2 text-slate-400 prose-strong:text-slate-400">
+            <div className="w-full prose max-w-1/2 prose-h4:text-slate-300 prose-h4:font-medium prose-h4:my-2 text-slate-400 prose-strong:text-slate-400">
                 <h4>Programming Languages</h4>
                 <div className="w-full flex flex-row flex-wrap items-center justify-stretch gap-2">
-                    {languages.map((l) => (
+                    {languages?.map((l) => (
                         <div
                             key={`skills-language-${l.name}`}
                             onClick={() => setSelectedLang(l)}
@@ -86,7 +27,7 @@ const ProgrammingLanguages: React.FC = () => {
                     onClick={() => setSelectedLang(null)}
                     className="fixed top-0 right-0 left-0 bottom-0 z-[100] bg-black/30"
                     style={{
-                        backdropFilter: "blur(4px)",
+                        backdropFilter: "blur(5px)",
                         pointerEvents: "all",
                     }}
                 />
@@ -121,7 +62,20 @@ const ProgrammingLanguages: React.FC = () => {
                                 <p>{p.summary}</p>
                                 <div className="w-full flex flex-row items-center gap-4">
                                     {p.githubLink && (
-                                        <a href={p.githubLink}>GitHub</a>
+                                        <a
+                                            href={p.githubLink}
+                                            className="hover:underline"
+                                        >
+                                            GitHub
+                                        </a>
+                                    )}
+                                    {p.liveLink && (
+                                        <a
+                                            href={p.liveLink}
+                                            className="hover:underline"
+                                        >
+                                            LiveLink
+                                        </a>
                                     )}
                                 </div>
                             </div>
