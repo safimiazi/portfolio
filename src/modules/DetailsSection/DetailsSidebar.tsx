@@ -25,7 +25,7 @@ const DetailsSidebar: React.FC<{
                         src="/logo.png"
                         alt="Mahabub Ahmed"
                         height={50}
-                        width={50}
+                        width={70}
                     />
                 </button>
                 <button
