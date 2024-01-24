@@ -18,13 +18,13 @@ export const languages: Language[] = [
             {
                 title: "Golden Peak",
                 summary: "A full-stack website for a camping school",
-                githubLink: "https://github.com/Astro177/Golden-Peaks-Client",
+                githubLink: "https://github.com/Mahabub175/Golden-Peaks-Client",
                 liveLink: "https://assignment-12-1c977.web.app/",
             },
             {
                 title: "Playful Delights",
                 summary: "A full-stack website for a toy store",
-                githubLink: "https://github.com/Astro177/Playful-Delights",
+                githubLink: "https://github.com/Mahabub175/Playful-Delights",
                 liveLink: "https://assignment-11-a4819.web.app/",
             },
             {
@@ -32,7 +32,7 @@ export const languages: Language[] = [
                 summary:
                     "A complete website for a kitchen for users to discover",
                 githubLink:
-                    "https://github.com/Astro177/Kitchen-Diaries-Client",
+                    "https://github.com/Mahabub175/Kitchen-Diaries-Client",
                 liveLink: "https://assignment-10-2d8e2.web.app/",
             },
         ],
@@ -45,7 +45,7 @@ export const languages: Language[] = [
             {
                 title: "Photohouse Magazine",
                 summary: "A full-stack website for magazine web application",
-                githubLink: "https://github.com/Astro177/Photohouse-Gallery",
+                githubLink: "https://github.com/Mahabub175/Photohouse-Gallery",
                 liveLink: "https://www.photohousemagazine.com/",
             },
         ],

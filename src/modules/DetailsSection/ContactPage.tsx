@@ -25,7 +25,7 @@ const links = [
     {
         name: "GitHub",
         icon: <FaGithub />,
-        href: "https://github.com/Astro177",
+        href: "https://github.com/Mahabub175",
     },
     {
         name: "Email",
