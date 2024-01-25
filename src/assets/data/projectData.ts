@@ -34,6 +34,56 @@ export const projectsData = [
         ],
     },
     {
+        title: "Recipe Manager",
+        summary:
+            "Recipe Manage is a website for the people who love to cook. This website allows user to create their own recipe and also share their recipe with others. User can add ingredients, steps and also add tags to their recipe. Also user can add their own recipe to the website, also they can update delete and see the full details of the recipe.",
+        projectType: "Personal",
+        githubLink: "https://github.com/Mahabub175/Recipe-Manager",
+        liveLink: "https://recipe-manager-swart.vercel.app/",
+        techStack: [
+            "Next.Js",
+            "Redux",
+            "ShadCN",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Tailwind CSS",
+        ],
+    },
+    {
+        title: "API Implementation",
+        summary:
+            "This is a complete back-end implementation of the API. This API is used by the front-end application to fetch the data. JWT was used for authentication. So users data are fully secured. This a complete api's for user and admin",
+        projectType: "Personal",
+        githubLink: "https://github.com/Mahabub175/L2-Assignemnt-4",
+        liveLink: "https://assignment-4-neon-chi.vercel.app/",
+        techStack: [
+            "Mongoose",
+            "Typescript",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "JWT",
+        ],
+    },
+    {
+        title: "Todo App",
+        summary:
+            "This is a simple task management application. This application allows user to add, delete, update and see the task details. User can also filter their tasks according to their needs. This application is fully state managed by redux. Also this application is fully responsive.",
+        projectType: "Personal",
+        githubLink: "https://github.com/Mahabub175/Redux-Todo-App",
+        liveLink: "https://redux-todo-app-theta.vercel.app/",
+        techStack: [
+            "React.Js",
+            "Redux",
+            "ShadCN",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Tailwind CSS",
+        ],
+    },
+    {
         title: "Playful Delights",
         summary:
             "Playful Delights offers a user-friendly platform that allows its protected users to manage their toy inventory by adding, updating, or deleting items at their discretion. The website features an engaging animation style and vibrant colors, complemented by Firebase authentication to enhance security. The site is seamlessly connected to a secure database, ensuring the safety and confidentiality of all user data.",
