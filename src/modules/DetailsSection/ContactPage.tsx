@@ -15,7 +15,7 @@ const links = [
     {
         name: "LinkedIn",
         icon: <FaLinkedin />,
-        href: "https://www.linkedin.com/in/mahabub-ahmed-683490278/",
+        href: "https://www.linkedin.com/in/mahabub-ahmed175/",
     },
     {
         name: "X (Twitter)",

@@ -29,7 +29,7 @@ const ContactButton: React.FC = () => {
                 </a>
                 <a
                     target="_blank"
-                    href="https://www.linkedin.com/in/mahabub-ahmed-683490278/"
+                    href="https://www.linkedin.com/in/mahabub-ahmed175/"
                 >
                     <BsLinkedin className="text-white hover:bg-primary-400 duration-500 hover:scale-125 rounded-full " />
                 </a>
