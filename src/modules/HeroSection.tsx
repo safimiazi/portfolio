@@ -10,7 +10,7 @@ const HeroSection: React.FC<{ setShowHero: (v: boolean) => void }> = ({
 
     return (
         <div className="w-full h-full p-6 flex flex-col justify-center lg:max-w-[60%] mx-auto gap-10">
-            <div className="w-full flex flex-col mx-auto gap-6 relative">
+            <div className="w-full flex flex-col mx-auto gap-4 relative">
                 <img
                     src="/me.png"
                     height="200px"
@@ -35,7 +35,7 @@ const HeroSection: React.FC<{ setShowHero: (v: boolean) => void }> = ({
                 <p className="text-slate-400">
                     I am a Passionate full-stack web developer with expertise in
                     creating attractive, user-friendly websites. Specializing in
-                    clean, responsive designs using HTML, CSS, Bootstrap,
+                    clean, responsive designs using HTML, CSS, Tailwind,
                     JavaScript, and React. Proficient in Next.js, Node.js,
                     Express.js, and MongoDB. Eager to enhance your team – let's
                     connect! Email me or use the provided information.

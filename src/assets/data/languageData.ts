@@ -48,6 +48,24 @@ export const languages: Language[] = [
                 githubLink: "https://github.com/Mahabub175/Photohouse-Gallery",
                 liveLink: "https://www.photohousemagazine.com/",
             },
+            {
+                title: "Task Manager",
+                summary: "A full-stack website for managing tasks",
+                githubLink: "https://github.com/Mahabub175/Redux-Todo-App",
+                liveLink: "https://redux-todo-app-theta.vercel.app/",
+            },
+            {
+                title: "Recipe Manager",
+                summary: "A full-stack website for managing recipes",
+                githubLink: "https://github.com/Mahabub175/Redux-Todo-App",
+                liveLink: "https://redux-todo-app-theta.vercel.app/",
+            },
+            {
+                title: "User Manager",
+                summary: "A full-stack website for managing users",
+                githubLink: "https://github.com/Mahabub175/User-Manager",
+                liveLink: "https://user-manager-omega.vercel.app/",
+            },
         ],
     },
 ];

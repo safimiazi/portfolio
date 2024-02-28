@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaLinkedin, FaGithub, FaEnvelope, FaTwitter } from "react-icons/fa6";
+import { FaLinkedin, FaGithub, FaEnvelope, FaXTwitter } from "react-icons/fa6";
 import AnimatedText from "../../components/AnimatedText";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
@@ -19,7 +19,7 @@ const links = [
     },
     {
         name: "X (Twitter)",
-        icon: <FaTwitter />,
+        icon: <FaXTwitter />,
         href: "https://twitter.com/Mahabub175",
     },
     {

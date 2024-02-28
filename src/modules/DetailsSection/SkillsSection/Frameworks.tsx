@@ -9,16 +9,19 @@ const frameworks: Framework[] = [
     { name: "React.js", description: "" },
     { name: "Node.js", description: "" },
     { name: "Express.js", description: "" },
-    { name: "FastAPI", description: "" },
-    { name: "React.js", description: "" },
+    { name: "Mongoose", description: "" },
+    { name: "Redux", description: "" },
     { name: "Next.js", description: "" },
     { name: "TailwindCSS", description: "" },
+    { name: "Axios", description: "" },
+    { name: "JWT", description: "" },
     { name: "SCSS", description: "" },
-    { name: "Redux", description: "" },
     { name: "Material Tailwind", description: "" },
     { name: "Material UI", description: "" },
     { name: "ShadCN", description: "" },
     { name: "Firebase", description: "" },
+    { name: "Ant Design", description: "" },
+    { name: "Next UI", description: "" },
 ];
 
 const Frameworks: React.FC = () => {

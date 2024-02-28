@@ -25,7 +25,7 @@ const App: React.FC = () => {
                 >
                     <DetailsSection />
                     <div
-                        className={`z-[100] w-full fixed top-0 right-0 left-0 bottom-0 flex flex-col justify-start items-start bg-gray-950 transition-transform duration-500 ${
+                        className={`z-[100] w-full fixed top-0 right-0 left-0 bottom-0 flex flex-col justify-start items-start bg-gray-950 transition-transform duration-500 overflow-x-auto ${
                             showHero ? "" : "translate-x-full"
                         }`}
                     >

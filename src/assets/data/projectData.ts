@@ -101,6 +101,23 @@ export const projectsData = [
         ],
     },
     {
+        title: "User Manager",
+        summary:
+            "This is a simple user management application. This application allows user to add, delete, update and see the user details. User can also filter their tasks according to their needs. This application is fully state managed by redux. Also this application is fully responsive.",
+        projectType: "Personal",
+        githubLink: "https://github.com/Mahabub175/User-Manager",
+        liveLink: "https://user-manager-omega.vercel.app/",
+        techStack: [
+            "React.Js",
+            "Redux",
+            "ShadCN",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Tailwind CSS",
+        ],
+    },
+    {
         title: "Kitchen Diaries",
         summary:
             "Kitchen Diaries provides a platform for its protected users to access detailed information about their chef's best recipes. The website showcases an appealing animation style and vibrant colors, incorporating Firebase authentication for enhanced security. The user experience is designed to be highly friendly, allowing users to thoroughly enjoy their time on the platform.",
