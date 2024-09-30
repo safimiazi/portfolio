@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaLinkedin, FaGithub, FaEnvelope, FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa6";
 import AnimatedText from "../../components/AnimatedText";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
