@@ -15,22 +15,18 @@ const links = [
     {
         name: "LinkedIn",
         icon: <FaLinkedin />,
-        href: "https://www.linkedin.com/in/mahabub-ahmed175/",
+        href: "https://www.linkedin.com/in/mohebulla-miazi-68631624b/",
     },
-    {
-        name: "X (Twitter)",
-        icon: <FaXTwitter />,
-        href: "https://twitter.com/Mahabub175",
-    },
+
     {
         name: "GitHub",
         icon: <FaGithub />,
-        href: "https://github.com/Mahabub175",
+        href: "https://github.com/safimiazi",
     },
     {
         name: "Email",
         icon: <FaEnvelope />,
-        href: "mailto:mahabub.ahmed175@gmail.com",
+        href: "mailto:mohibullamiazi@gmail.com",
     },
 ];
 
@@ -48,7 +44,7 @@ const ContactPage: React.FC = () => {
         const templateParam = {
             from_name: data?.name,
             from_email: data?.email,
-            to_name: "Mahabub Ahmed",
+            to_name: "Mohebulla Miazi",
             message: data?.message,
         };
 

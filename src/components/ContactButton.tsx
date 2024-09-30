@@ -14,33 +14,33 @@ const ContactButton: React.FC = () => {
             <div className="flex flex-wrap mt-4 gap-x-8 text-4xl">
                 <a
                     target="_blank"
-                    href="https://www.facebook.com/mahabub.ahmmed.52/"
+                    href="https://www.facebook.com/Itsshafimiazi"
                 >
                     <BsFacebook className="text-white hover:bg-primary-400 duration-500 hover:scale-125 rounded-full " />
                 </a>
-                <a target="_blank" href="https://github.com/Mahabub175">
+                <a target="_blank" href="https://github.com/safimiazi">
                     <BsGithub className="text-white hover:bg-primary-400 duration-500 hover:scale-125 rounded-full " />
                 </a>
-                <a
+                {/* <a
                     target="_blank"
                     href="https://www.instagram.com/mahabub_tro/"
                 >
                     <BsInstagram className="text-white hover:bg-primary-400 duration-500 hover:scale-125 rounded-full " />
-                </a>
+                </a> */}
                 <a
                     target="_blank"
-                    href="https://www.linkedin.com/in/mahabub-ahmed175/"
+                    href="https://www.linkedin.com/in/mohebulla-miazi-68631624b/"
                 >
                     <BsLinkedin className="text-white hover:bg-primary-400 duration-500 hover:scale-125 rounded-full " />
                 </a>
-                <a target="_blank" href="mailto:mahabub.ahmed175@gmail.com">
+                <a target="_blank" href="mailto:mohibullamiazi@gmail.com">
                     <SiGmail className="text-white hover:bg-primary-400 duration-500 hover:scale-125 rounded-full " />
                 </a>
             </div>
 
-            <div className="mt-6">
+            {/* <div className="mt-6">
                 <a
-                    href="https://drive.google.com/file/d/1jzmhTu4FRlld10lITu2yvvkSLtcyRKZ1/view?usp=sharing"
+                    href="resume-drive-link-here"
                     target="_blank"
                 >
                     <button className="flex items-center justify-center gap-2 text-white bg-primary-400 px-10 py-2 rounded-xl font-bold border border-primary-400 hover:bg-transparent duration-300">
@@ -48,7 +48,7 @@ const ContactButton: React.FC = () => {
                         <BsDownload className="hover:animate-bounce transition-all" />
                     </button>
                 </a>
-            </div>
+            </div> */}
         </div>
     );
 };

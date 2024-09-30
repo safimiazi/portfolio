@@ -2,7 +2,7 @@ import ContactButton from "../components/ContactButton";
 import AnimatedText from "../components/AnimatedText";
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
-
+import mohibulla from './../assets/images/mohebulla.jpg.jpg'
 const HeroSection: React.FC<{ setShowHero: (v: boolean) => void }> = ({
     setShowHero,
 }) => {
@@ -12,7 +12,7 @@ const HeroSection: React.FC<{ setShowHero: (v: boolean) => void }> = ({
         <div className="w-full h-full p-6 flex flex-col justify-center lg:max-w-[60%] mx-auto gap-10">
             <div className="w-full flex flex-col mx-auto gap-4 relative">
                 <img
-                    src="/me.png"
+                    src={mohibulla}
                     height="200px"
                     width="150px"
                     className="rounded-full"
@@ -21,7 +21,7 @@ const HeroSection: React.FC<{ setShowHero: (v: boolean) => void }> = ({
                     Hey There, I'm
                 </h3>
                 <h1 className="text-slate-300 font-bold text-3xl sm:text-4xl md:text-6xl selection:bg-transparent selection:text-primary-400">
-                    {"Mahabub Ahmed".split("").map((str, i) => (
+                    {"Mohebulla Miazi".split("").map((str, i) => (
                         <AnimatedText
                             key={"first-name-" + str + i}
                             str={str}
@@ -33,12 +33,7 @@ const HeroSection: React.FC<{ setShowHero: (v: boolean) => void }> = ({
                     Full-Stack Developer
                 </h4>
                 <p className="text-slate-400">
-                    I am a Passionate full-stack web developer with expertise in
-                    creating attractive, user-friendly websites. Specializing in
-                    clean, responsive designs using HTML, CSS, Tailwind,
-                    JavaScript, and React. Proficient in Next.js, Node.js,
-                    Express.js, and MongoDB. Eager to enhance your team – let's
-                    connect! Email me or use the provided information.
+                I’m a dedicated full-stack web developer, passionate about crafting visually appealing and user-friendly websites. With a focus on clean, responsive designs using HTML, CSS, Tailwind, JavaScript, and React, I bring ideas to life. Skilled in Next.js, Node.js, Express.js, and MongoDB, I’m ready to elevate your team’s web projects. Let’s collaborate! Reach out via email or the details provided.
                 </p>
                 <ContactButton />
             </div>

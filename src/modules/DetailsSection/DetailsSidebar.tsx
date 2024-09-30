@@ -23,7 +23,7 @@ const DetailsSidebar: React.FC<{
                 <button onClick={() => window.location.reload()}>
                     <img
                         src="/logo.png"
-                        alt="Mahabub Ahmed"
+                        alt="Mohebulla Miazi"
                         height={50}
                         width={70}
                     />
