@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa";
 
 import DetailsSidebar from "./DetailsSidebar";
 import ExperiencesSection from "./ExperiencesSection";
-import ProjectsSection from "./ProjectsSection";
+// import ProjectsSection from "./ProjectsSection";
 import SkillsSection from "./SkillsSection";
 import ContactPage from "./ContactPage";
 
