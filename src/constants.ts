@@ -1,6 +1,6 @@
 export const homePageTabs = {
     experiences: "experiences",
-    projects: "projects",
+    // projects: "projects",
     skills: "skills",
     contact: "contact",
 };

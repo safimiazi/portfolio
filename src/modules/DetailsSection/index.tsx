@@ -28,7 +28,7 @@ const DetailsSection: React.FC = () => {
             />
 
             {tab === homePageTabs.experiences && <ExperiencesSection />}
-            {tab === homePageTabs.projects && <ProjectsSection />}
+            {/* {tab === homePageTabs.projects && <ProjectsSection />} */}
             {tab === homePageTabs.skills && <SkillsSection />}
             {tab === homePageTabs.contact && <ContactPage />}
         </div>
